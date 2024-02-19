@@ -1,0 +1,109 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Employer.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Employer.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Employer.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Employer.Application.dll": {}
+        }
+      },
+      "Employer.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Employer.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Employer.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Employer.Application/1.0.0": {
+      "type": "project",
+      "path": "../Employer.Application/Employer.Application.csproj",
+      "msbuildProject": "../Employer.Application/Employer.Application.csproj"
+    },
+    "Employer.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Employer.Domain/Employer.Domain.csproj",
+      "msbuildProject": "../Employer.Domain/Employer.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Employer.Application >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\I-Repair Shop\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\I-Repair Shop\\source\\repos\\Employer.Domain\\Employer.Infrastructure\\Employer.Infrastructure.csproj",
+      "projectName": "Employer.Infrastructure",
+      "projectPath": "C:\\Users\\I-Repair Shop\\source\\repos\\Employer.Domain\\Employer.Infrastructure\\Employer.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\I-Repair Shop\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\I-Repair Shop\\source\\repos\\Employer.Domain\\Employer.Infrastructure\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\I-Repair Shop\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\I-Repair Shop\\source\\repos\\Employer.Domain\\Employer.Application\\Employer.Application.csproj": {
+              "projectPath": "C:\\Users\\I-Repair Shop\\source\\repos\\Employer.Domain\\Employer.Application\\Employer.Application.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
